@@ -1,0 +1,10 @@
+  
+coverage_service: coveralls
+xcodeproj: RakutenTV.xcodeproj
+workspace: RakutenTV.xcworkspace
+scheme: RakutenTV
+source_directory: RakutenTV/*
+ignore:
+  - RakutenTVTests/*
+  - RakutenTVUITests/*
+  - Pods/*

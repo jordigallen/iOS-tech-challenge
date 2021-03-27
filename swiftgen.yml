@@ -1,0 +1,25 @@
+strings:
+  inputs: RakutenTV/Resources/SwiftGen/Resources/es.lproj/Localizable.strings
+  outputs:
+    templateName: structured-swift4
+    output: RakutenTV/Resources/SwiftGen/Generated/strings.swift
+colors:
+  inputs: RakutenTV/Resources/SwiftGen/Resources/Colors.json
+  outputs:
+    templateName: swift4
+    output: RakutenTV/Resources/SwiftGen/Generated/colors.swift
+ib:
+  inputs: RakutenTV/Resources/Scenes
+  outputs:
+    templateName: scenes-swift4
+    output:  RakutenTV/Resources/SwiftGen/Generated/Scenes.swift
+xcassets:
+  inputs: RakutenTV/Resources/SwiftGen/Resources/Assets.xcassets
+  outputs:
+    templateName: swift4
+    output:  RakutenTV/Resources/SwiftGen/Generated/images.swift
+fonts:
+  inputs: RakutenTV/Resources/Fonts
+  outputs:
+    templateName: swift4
+    output:  RakutenTV/Resources/SwiftGen/Generated/Fonts.swift
