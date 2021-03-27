@@ -1,0 +1,6 @@
+framework module Pods_RakutenTV {
+  umbrella header "Pods-RakutenTV-umbrella.h"
+
+  export *
+  module * { export * }
+}
