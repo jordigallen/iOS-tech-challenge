@@ -1,0 +1,8 @@
+// MARK: Shared
+"Shared.accept" = "Aceptar";
+"Shared.empty" = "";
+
+// MARK: List
+"rakutenTV.ListViewController.navigation.title" = " in RakutenTV";
+"rakutenTV.ListViewController.searching.title" = "We are downloading the list\n\nAre you ready to freak?";
+"rakutenTV.ListViewController.searching.resulNotFound" = "You haven't found what you were looking for, man!\n\nBad luck!";
