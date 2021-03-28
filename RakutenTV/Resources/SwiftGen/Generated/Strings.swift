@@ -24,7 +24,7 @@ internal enum L10n {
       /// You haven't found what you were looking for, man!\n\nBad luck!
       internal static let resulNotFound = L10n.tr("Localizable", "rakutenTV.ListViewController.resulNotFound")
       internal enum Navigation {
-        /// ElectroMaps
+        /// RakutenTV
         internal static let title = L10n.tr("Localizable", "rakutenTV.ListViewController.navigation.title")
       }
       internal enum Searching {
