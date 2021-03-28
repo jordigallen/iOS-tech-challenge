@@ -44,7 +44,7 @@ lane :full_test do |options|
 	raise "Missing 'ios_version' parameter. Usage: fastlane full_test device:DEVICE ios_version:IOS_VERSION" unless options[:ios_version]
 	ios_version = options[:ios_version]
 	scan(
-	    scheme: “RakutenTV”,
+	    scheme: "RakutenTV",
 	    device: options[:device],
 	    sdk: "iphonesimulator" + "#{ios_version}",
 	    clean: true,
