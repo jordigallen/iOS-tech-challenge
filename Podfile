@@ -9,7 +9,7 @@ use_frameworks!
 inhibit_all_warnings!
 
 $alamofire_version = '4.9.1'
-$nimble_version = '8.0.4'
+# $nimble_version = '8.0.4'
 $promise_kit_version = '6.12.0'
 $sdwebimage_version = '5.3.1'
 $swiftgen_version = '6.1.0'
@@ -36,7 +36,7 @@ end
 target 'RakutenTVTests' do
   inherit! :search_paths
   app_pods
-  pod 'Nimble', $nimble_version
+#  pod 'Nimble', $nimble_version
   pod 'SnapshotTesting', $snapshotTesting_version
 end
 
