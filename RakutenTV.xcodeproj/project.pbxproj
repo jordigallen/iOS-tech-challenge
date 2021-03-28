@@ -1,0 +1,1200 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14954982260F839A000D9A83 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14954934260F8399000D9A83 /* Strings.swift */; };
+		14954983260F839A000D9A83 /* Scenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14954935260F8399000D9A83 /* Scenes.swift */; };
+		14954984260F839A000D9A83 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14954936260F8399000D9A83 /* Fonts.swift */; };
+		14954985260F839A000D9A83 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14954937260F8399000D9A83 /* Images.swift */; };
+		14954986260F839A000D9A83 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14954938260F8399000D9A83 /* Colors.swift */; };
+		149549A4260F8439000D9A83 /* Gothamrnd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 149549A0260F8439000D9A83 /* Gothamrnd-Bold.otf */; };
+		149549A5260F8439000D9A83 /* Gothamrnd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 149549A1260F8439000D9A83 /* Gothamrnd-Light.otf */; };
+		149549A6260F8439000D9A83 /* Gothamrnd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 149549A2260F8439000D9A83 /* Gothamrnd-Book.otf */; };
+		149549A7260F8439000D9A83 /* Gothamrnd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 149549A3260F8439000D9A83 /* Gothamrnd-Medium.otf */; };
+		14954A15260F8664000D9A83 /* BaseEmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14954A14260F8664000D9A83 /* BaseEmptyView.xib */; };
+		14954A1A260F8676000D9A83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14954A19260F8676000D9A83 /* LaunchScreen.storyboard */; };
+		14954A1F260F8686000D9A83 /* List.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14954A1E260F8686000D9A83 /* List.storyboard */; };
+		14954A24260F8694000D9A83 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14954A23260F8694000D9A83 /* Detail.storyboard */; };
+		14954A29260F86C1000D9A83 /* ResultCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14954A28260F86C1000D9A83 /* ResultCollectionViewCell.xib */; };
+		14954A4A260F8805000D9A83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14954A49260F8805000D9A83 /* AppDelegate.swift */; };
+		14954A7A260F8AD1000D9A83 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14954A74260F8AD0000D9A83 /* Localizable.strings */; };
+		14954A7B260F8AD1000D9A83 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14954A77260F8AD1000D9A83 /* Localizable.strings */; };
+		14F5E8E7260F4CCB0028AA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F5E8E6260F4CCB0028AA90 /* Assets.xcassets */; };
+		14F5E8F5260F4CCC0028AA90 /* RakutenTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F5E8F4260F4CCB0028AA90 /* RakutenTVTests.swift */; };
+		14F5E900260F4CCC0028AA90 /* RakutenTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F5E8FF260F4CCC0028AA90 /* RakutenTVUITests.swift */; };
+		15D8394289AB8431E5B4439B /* Pods_RakutenTVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC83EEED2E006D86FCD47E2 /* Pods_RakutenTVUITests.framework */; };
+		6224F9E3DF7BE55CE831B76D /* Pods_RakutenTVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8166D1A3612F69E3084D2298 /* Pods_RakutenTVTests.framework */; };
+		950D4D5D89D673A5B6DA2B6A /* Pods_RakutenTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD20DA9718ADBB080469174 /* Pods_RakutenTV.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14F5E8F1260F4CCB0028AA90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14F5E8D2260F4CCA0028AA90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14F5E8D9260F4CCA0028AA90;
+			remoteInfo = RakutenTV;
+		};
+		14F5E8FC260F4CCC0028AA90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14F5E8D2260F4CCA0028AA90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14F5E8D9260F4CCA0028AA90;
+			remoteInfo = RakutenTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AD20DA9718ADBB080469174 /* Pods_RakutenTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RakutenTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11118AFFE27C44B2BB967D9F /* Pods-RakutenTVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RakutenTVUITests.release.xcconfig"; path = "Target Support Files/Pods-RakutenTVUITests/Pods-RakutenTVUITests.release.xcconfig"; sourceTree = "<group>"; };
+		13266BEF6963D58A3D0D4569 /* Pods-RakutenTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RakutenTV.debug.xcconfig"; path = "Target Support Files/Pods-RakutenTV/Pods-RakutenTV.debug.xcconfig"; sourceTree = "<group>"; };
+		14954934260F8399000D9A83 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		14954935260F8399000D9A83 /* Scenes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scenes.swift; sourceTree = "<group>"; };
+		14954936260F8399000D9A83 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		14954937260F8399000D9A83 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		14954938260F8399000D9A83 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		149549A0260F8439000D9A83 /* Gothamrnd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gothamrnd-Bold.otf"; sourceTree = "<group>"; };
+		149549A1260F8439000D9A83 /* Gothamrnd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gothamrnd-Light.otf"; sourceTree = "<group>"; };
+		149549A2260F8439000D9A83 /* Gothamrnd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gothamrnd-Book.otf"; sourceTree = "<group>"; };
+		149549A3260F8439000D9A83 /* Gothamrnd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gothamrnd-Medium.otf"; sourceTree = "<group>"; };
+		14954A14260F8664000D9A83 /* BaseEmptyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseEmptyView.xib; sourceTree = "<group>"; };
+		14954A19260F8676000D9A83 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14954A1E260F8686000D9A83 /* List.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = List.storyboard; sourceTree = "<group>"; };
+		14954A23260F8694000D9A83 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		14954A28260F86C1000D9A83 /* ResultCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultCollectionViewCell.xib; sourceTree = "<group>"; };
+		14954A49260F8805000D9A83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14954A75260F8AD0000D9A83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		14954A78260F8AD1000D9A83 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
+		14954A91260F99D2000D9A83 /* Colors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Colors.json; sourceTree = "<group>"; };
+		14F5E8DA260F4CCA0028AA90 /* RakutenTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RakutenTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F5E8E6260F4CCB0028AA90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14F5E8EB260F4CCB0028AA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F5E8F0260F4CCB0028AA90 /* RakutenTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RakutenTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F5E8F4260F4CCB0028AA90 /* RakutenTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RakutenTVTests.swift; sourceTree = "<group>"; };
+		14F5E8F6260F4CCC0028AA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F5E8FB260F4CCC0028AA90 /* RakutenTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RakutenTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F5E8FF260F4CCC0028AA90 /* RakutenTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RakutenTVUITests.swift; sourceTree = "<group>"; };
+		14F5E901260F4CCC0028AA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C69AE45988F21B7A64D83D /* Pods-RakutenTVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RakutenTVTests.release.xcconfig"; path = "Target Support Files/Pods-RakutenTVTests/Pods-RakutenTVTests.release.xcconfig"; sourceTree = "<group>"; };
+		8166D1A3612F69E3084D2298 /* Pods_RakutenTVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RakutenTVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC83EEED2E006D86FCD47E2 /* Pods_RakutenTVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RakutenTVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2392A878CFA5D9B9DFB1121 /* Pods-RakutenTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RakutenTV.release.xcconfig"; path = "Target Support Files/Pods-RakutenTV/Pods-RakutenTV.release.xcconfig"; sourceTree = "<group>"; };
+		DF87D45D23A4FE157ADDC19C /* Pods-RakutenTVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RakutenTVUITests.debug.xcconfig"; path = "Target Support Files/Pods-RakutenTVUITests/Pods-RakutenTVUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3EBB68C7CC02FCB143D8178 /* Pods-RakutenTVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RakutenTVTests.debug.xcconfig"; path = "Target Support Files/Pods-RakutenTVTests/Pods-RakutenTVTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14F5E8D7260F4CCA0028AA90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				950D4D5D89D673A5B6DA2B6A /* Pods_RakutenTV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F5E8ED260F4CCB0028AA90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6224F9E3DF7BE55CE831B76D /* Pods_RakutenTVTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F5E8F8260F4CCC0028AA90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D8394289AB8431E5B4439B /* Pods_RakutenTVUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		149548A9260F823B000D9A83 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				14954A49260F8805000D9A83 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		149548AA260F8247000D9A83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1495499F260F8439000D9A83 /* Fonts */,
+				149548B8260F8399000D9A83 /* Scenes */,
+				14954932260F8399000D9A83 /* SwiftGen */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		149548AB260F8250000D9A83 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				149548B5260F8295000D9A83 /* Core */,
+				149548B7260F82A6000D9A83 /* Features */,
+				149548B6260F829D000D9A83 /* Resolver */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		149548B5260F8295000D9A83 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		149548B6260F829D000D9A83 /* Resolver */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resolver;
+			sourceTree = "<group>";
+		};
+		149548B7260F82A6000D9A83 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				149549AC260F8463000D9A83 /* List */,
+				149549AB260F845A000D9A83 /* Detail */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		149548B8260F8399000D9A83 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				14954A14260F8664000D9A83 /* BaseEmptyView.xib */,
+				14954A19260F8676000D9A83 /* LaunchScreen.storyboard */,
+				14954A1E260F8686000D9A83 /* List.storyboard */,
+				14954A23260F8694000D9A83 /* Detail.storyboard */,
+				14954A28260F86C1000D9A83 /* ResultCollectionViewCell.xib */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		14954932260F8399000D9A83 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				14954933260F8399000D9A83 /* Generated */,
+				14954939260F8399000D9A83 /* Resources */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		14954933260F8399000D9A83 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				14954934260F8399000D9A83 /* Strings.swift */,
+				14954935260F8399000D9A83 /* Scenes.swift */,
+				14954936260F8399000D9A83 /* Fonts.swift */,
+				14954937260F8399000D9A83 /* Images.swift */,
+				14954938260F8399000D9A83 /* Colors.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		14954939260F8399000D9A83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				14F5E8E6260F4CCB0028AA90 /* Assets.xcassets */,
+				14954A91260F99D2000D9A83 /* Colors.json */,
+				14954A73260F8AD0000D9A83 /* en.lproj */,
+				14954A76260F8AD1000D9A83 /* es.lproj */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1495499F260F8439000D9A83 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				149549A0260F8439000D9A83 /* Gothamrnd-Bold.otf */,
+				149549A1260F8439000D9A83 /* Gothamrnd-Light.otf */,
+				149549A2260F8439000D9A83 /* Gothamrnd-Book.otf */,
+				149549A3260F8439000D9A83 /* Gothamrnd-Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		149549AB260F845A000D9A83 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		149549AC260F8463000D9A83 /* List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		14954A73260F8AD0000D9A83 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				14954A74260F8AD0000D9A83 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		14954A76260F8AD1000D9A83 /* es.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				14954A77260F8AD1000D9A83 /* Localizable.strings */,
+			);
+			path = es.lproj;
+			sourceTree = "<group>";
+		};
+		14954AB6260F9B08000D9A83 /* Mockserver */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mockserver;
+			sourceTree = "<group>";
+		};
+		14954AB7260F9B19000D9A83 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				14954ABA260F9B6F000D9A83 /* Feature */,
+				14954AB9260F9B60000D9A83 /* HttpStubs */,
+				14954AB8260F9B4C000D9A83 /* Server Responses */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		14954AB8260F9B4C000D9A83 /* Server Responses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Server Responses";
+			sourceTree = "<group>";
+		};
+		14954AB9260F9B60000D9A83 /* HttpStubs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HttpStubs;
+			sourceTree = "<group>";
+		};
+		14954ABA260F9B6F000D9A83 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				14954ABB260F9B92000D9A83 /* Common */,
+				14954ABC260F9B9C000D9A83 /* List */,
+				14954ABD260F9BA3000D9A83 /* Detail */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		14954ABB260F9B92000D9A83 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		14954ABC260F9B9C000D9A83 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				14F5E8FF260F4CCC0028AA90 /* RakutenTVUITests.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		14954ABD260F9BA3000D9A83 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		14954ABE260F9C03000D9A83 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				14954ABF260F9C0A000D9A83 /* CoreLog */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		14954ABF260F9C0A000D9A83 /* CoreLog */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreLog;
+			sourceTree = "<group>";
+		};
+		14954AC0260F9C13000D9A83 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				14954AD3260F9D47000D9A83 /* SnapShots */,
+				14954AD2260F9D40000D9A83 /* Core */,
+				14954AC3260F9C4C000D9A83 /* Features */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		14954AC1260F9C19000D9A83 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		14954AC2260F9C26000D9A83 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		14954AC3260F9C4C000D9A83 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				14954AC4260F9C5F000D9A83 /* List */,
+				14954AC5260F9C6C000D9A83 /* Detail */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		14954AC4260F9C5F000D9A83 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				14954ACA260F9CAB000D9A83 /* Repository */,
+				14954AC9260F9CA5000D9A83 /* DI */,
+				14954AC8260F9C9E000D9A83 /* Model */,
+				14954AC7260F9C95000D9A83 /* Presenter */,
+				14954AC6260F9C8E000D9A83 /* View */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		14954AC5260F9C6C000D9A83 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				14954ACF260F9CDD000D9A83 /* Repository */,
+				14954ACE260F9CD6000D9A83 /* DI */,
+				14954ACD260F9CD0000D9A83 /* Model */,
+				14954ACC260F9CC4000D9A83 /* Presenter */,
+				14954ACB260F9CBE000D9A83 /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		14954AC6260F9C8E000D9A83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14954AD0260F9CFB000D9A83 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14954AC7260F9C95000D9A83 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				14F5E8F4260F4CCB0028AA90 /* RakutenTVTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		14954AC8260F9C9E000D9A83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14954AC9260F9CA5000D9A83 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		14954ACA260F9CAB000D9A83 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		14954ACB260F9CBE000D9A83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14954AD1260F9CFF000D9A83 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14954ACC260F9CC4000D9A83 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		14954ACD260F9CD0000D9A83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14954ACE260F9CD6000D9A83 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		14954ACF260F9CDD000D9A83 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		14954AD0260F9CFB000D9A83 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		14954AD1260F9CFF000D9A83 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		14954AD2260F9D40000D9A83 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		14954AD3260F9D47000D9A83 /* SnapShots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SnapShots;
+			sourceTree = "<group>";
+		};
+		14F5E8D1260F4CCA0028AA90 = {
+			isa = PBXGroup;
+			children = (
+				14F5E8DC260F4CCA0028AA90 /* RakutenTV */,
+				14F5E8F3260F4CCB0028AA90 /* RakutenTVTests */,
+				14F5E8FE260F4CCC0028AA90 /* RakutenTVUITests */,
+				14F5E8DB260F4CCA0028AA90 /* Products */,
+				E3F9745868B784935C24A494 /* Pods */,
+				7376749872779831FF768F82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14F5E8DB260F4CCA0028AA90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14F5E8DA260F4CCA0028AA90 /* RakutenTV.app */,
+				14F5E8F0260F4CCB0028AA90 /* RakutenTVTests.xctest */,
+				14F5E8FB260F4CCC0028AA90 /* RakutenTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14F5E8DC260F4CCA0028AA90 /* RakutenTV */ = {
+			isa = PBXGroup;
+			children = (
+				14F5E8EB260F4CCB0028AA90 /* Info.plist */,
+				149548A9260F823B000D9A83 /* AppDelegate */,
+				149548AA260F8247000D9A83 /* Resources */,
+				149548AB260F8250000D9A83 /* Source */,
+			);
+			path = RakutenTV;
+			sourceTree = "<group>";
+		};
+		14F5E8F3260F4CCB0028AA90 /* RakutenTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				14F5E8F6260F4CCC0028AA90 /* Info.plist */,
+				14954AC2260F9C26000D9A83 /* Mocks */,
+				14954AC1260F9C19000D9A83 /* Router */,
+				14954AC0260F9C13000D9A83 /* Source */,
+				14954ABE260F9C03000D9A83 /* Utils */,
+			);
+			path = RakutenTVTests;
+			sourceTree = "<group>";
+		};
+		14F5E8FE260F4CCC0028AA90 /* RakutenTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14F5E901260F4CCC0028AA90 /* Info.plist */,
+				14954AB6260F9B08000D9A83 /* Mockserver */,
+				14954AB7260F9B19000D9A83 /* Source */,
+			);
+			path = RakutenTVUITests;
+			sourceTree = "<group>";
+		};
+		7376749872779831FF768F82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AD20DA9718ADBB080469174 /* Pods_RakutenTV.framework */,
+				8166D1A3612F69E3084D2298 /* Pods_RakutenTVTests.framework */,
+				CFC83EEED2E006D86FCD47E2 /* Pods_RakutenTVUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3F9745868B784935C24A494 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13266BEF6963D58A3D0D4569 /* Pods-RakutenTV.debug.xcconfig */,
+				D2392A878CFA5D9B9DFB1121 /* Pods-RakutenTV.release.xcconfig */,
+				E3EBB68C7CC02FCB143D8178 /* Pods-RakutenTVTests.debug.xcconfig */,
+				15C69AE45988F21B7A64D83D /* Pods-RakutenTVTests.release.xcconfig */,
+				DF87D45D23A4FE157ADDC19C /* Pods-RakutenTVUITests.debug.xcconfig */,
+				11118AFFE27C44B2BB967D9F /* Pods-RakutenTVUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14F5E8D9260F4CCA0028AA90 /* RakutenTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F5E904260F4CCC0028AA90 /* Build configuration list for PBXNativeTarget "RakutenTV" */;
+			buildPhases = (
+				FD39510DF4F60AB7EB2B7666 /* [CP] Check Pods Manifest.lock */,
+				14F5E8D6260F4CCA0028AA90 /* Sources */,
+				149549FB260F8577000D9A83 /* SwiftGen script */,
+				14F5E8D7260F4CCA0028AA90 /* Frameworks */,
+				14F5E8D8260F4CCA0028AA90 /* Resources */,
+				3774D77B7C3FC9BE43C83152 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RakutenTV;
+			productName = RakutenTV;
+			productReference = 14F5E8DA260F4CCA0028AA90 /* RakutenTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14F5E8EF260F4CCB0028AA90 /* RakutenTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F5E907260F4CCC0028AA90 /* Build configuration list for PBXNativeTarget "RakutenTVTests" */;
+			buildPhases = (
+				7BE35CCA80DD4CE33E6810D9 /* [CP] Check Pods Manifest.lock */,
+				14F5E8EC260F4CCB0028AA90 /* Sources */,
+				14F5E8ED260F4CCB0028AA90 /* Frameworks */,
+				14F5E8EE260F4CCB0028AA90 /* Resources */,
+				A39999CBC6A71154F4B0697D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F5E8F2260F4CCB0028AA90 /* PBXTargetDependency */,
+			);
+			name = RakutenTVTests;
+			productName = RakutenTVTests;
+			productReference = 14F5E8F0260F4CCB0028AA90 /* RakutenTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14F5E8FA260F4CCC0028AA90 /* RakutenTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F5E90A260F4CCC0028AA90 /* Build configuration list for PBXNativeTarget "RakutenTVUITests" */;
+			buildPhases = (
+				D67514271CEC53304846F36A /* [CP] Check Pods Manifest.lock */,
+				14F5E8F7260F4CCC0028AA90 /* Sources */,
+				14F5E8F8260F4CCC0028AA90 /* Frameworks */,
+				14F5E8F9260F4CCC0028AA90 /* Resources */,
+				D0A876100FDB23FFA9A5F434 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F5E8FD260F4CCC0028AA90 /* PBXTargetDependency */,
+			);
+			name = RakutenTVUITests;
+			productName = RakutenTVUITests;
+			productReference = 14F5E8FB260F4CCC0028AA90 /* RakutenTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14F5E8D2260F4CCA0028AA90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					14F5E8D9260F4CCA0028AA90 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					14F5E8EF260F4CCB0028AA90 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 14F5E8D9260F4CCA0028AA90;
+					};
+					14F5E8FA260F4CCC0028AA90 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 14F5E8D9260F4CCA0028AA90;
+					};
+				};
+			};
+			buildConfigurationList = 14F5E8D5260F4CCA0028AA90 /* Build configuration list for PBXProject "RakutenTV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = 14F5E8D1260F4CCA0028AA90;
+			productRefGroup = 14F5E8DB260F4CCA0028AA90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14F5E8D9260F4CCA0028AA90 /* RakutenTV */,
+				14F5E8EF260F4CCB0028AA90 /* RakutenTVTests */,
+				14F5E8FA260F4CCC0028AA90 /* RakutenTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14F5E8D8260F4CCA0028AA90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14954A7B260F8AD1000D9A83 /* Localizable.strings in Resources */,
+				149549A7260F8439000D9A83 /* Gothamrnd-Medium.otf in Resources */,
+				149549A6260F8439000D9A83 /* Gothamrnd-Book.otf in Resources */,
+				14954A15260F8664000D9A83 /* BaseEmptyView.xib in Resources */,
+				14954A29260F86C1000D9A83 /* ResultCollectionViewCell.xib in Resources */,
+				14954A1F260F8686000D9A83 /* List.storyboard in Resources */,
+				14F5E8E7260F4CCB0028AA90 /* Assets.xcassets in Resources */,
+				14954A24260F8694000D9A83 /* Detail.storyboard in Resources */,
+				149549A4260F8439000D9A83 /* Gothamrnd-Bold.otf in Resources */,
+				14954A1A260F8676000D9A83 /* LaunchScreen.storyboard in Resources */,
+				14954A7A260F8AD1000D9A83 /* Localizable.strings in Resources */,
+				149549A5260F8439000D9A83 /* Gothamrnd-Light.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F5E8EE260F4CCB0028AA90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F5E8F9260F4CCC0028AA90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		149549FB260F8577000D9A83 /* SwiftGen script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftGen script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nPods/SwiftGen/bin/swiftgen config run   \n";
+		};
+		3774D77B7C3FC9BE43C83152 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RakutenTV/Pods-RakutenTV-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RakutenTV/Pods-RakutenTV-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RakutenTV/Pods-RakutenTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BE35CCA80DD4CE33E6810D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RakutenTVTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A39999CBC6A71154F4B0697D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RakutenTVTests/Pods-RakutenTVTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RakutenTVTests/Pods-RakutenTVTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RakutenTVTests/Pods-RakutenTVTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0A876100FDB23FFA9A5F434 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RakutenTVUITests/Pods-RakutenTVUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RakutenTVUITests/Pods-RakutenTVUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RakutenTVUITests/Pods-RakutenTVUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D67514271CEC53304846F36A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RakutenTVUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD39510DF4F60AB7EB2B7666 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RakutenTV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14F5E8D6260F4CCA0028AA90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14954985260F839A000D9A83 /* Images.swift in Sources */,
+				14954982260F839A000D9A83 /* Strings.swift in Sources */,
+				14954984260F839A000D9A83 /* Fonts.swift in Sources */,
+				14954986260F839A000D9A83 /* Colors.swift in Sources */,
+				14954A4A260F8805000D9A83 /* AppDelegate.swift in Sources */,
+				14954983260F839A000D9A83 /* Scenes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F5E8EC260F4CCB0028AA90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F5E8F5260F4CCC0028AA90 /* RakutenTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F5E8F7260F4CCC0028AA90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F5E900260F4CCC0028AA90 /* RakutenTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14F5E8F2260F4CCB0028AA90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14F5E8D9260F4CCA0028AA90 /* RakutenTV */;
+			targetProxy = 14F5E8F1260F4CCB0028AA90 /* PBXContainerItemProxy */;
+		};
+		14F5E8FD260F4CCC0028AA90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14F5E8D9260F4CCA0028AA90 /* RakutenTV */;
+			targetProxy = 14F5E8FC260F4CCC0028AA90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14954A74260F8AD0000D9A83 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14954A75260F8AD0000D9A83 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		14954A77260F8AD1000D9A83 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14954A78260F8AD1000D9A83 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14F5E902260F4CCC0028AA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14F5E903260F4CCC0028AA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14F5E905260F4CCC0028AA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13266BEF6963D58A3D0D4569 /* Pods-RakutenTV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK599T7KWJ;
+				INFOPLIST_FILE = RakutenTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rakutentv.ios-Technical-Test.jordigallenrenau.RakutenTV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14F5E906260F4CCC0028AA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2392A878CFA5D9B9DFB1121 /* Pods-RakutenTV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK599T7KWJ;
+				INFOPLIST_FILE = RakutenTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rakutentv.ios-Technical-Test.jordigallenrenau.RakutenTV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14F5E908260F4CCC0028AA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3EBB68C7CC02FCB143D8178 /* Pods-RakutenTVTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK599T7KWJ;
+				INFOPLIST_FILE = RakutenTVTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rakutentv.ios-Technical-Test.jordigallenrenau.RakutenTVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RakutenTV.app/RakutenTV";
+			};
+			name = Debug;
+		};
+		14F5E909260F4CCC0028AA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15C69AE45988F21B7A64D83D /* Pods-RakutenTVTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK599T7KWJ;
+				INFOPLIST_FILE = RakutenTVTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rakutentv.ios-Technical-Test.jordigallenrenau.RakutenTVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RakutenTV.app/RakutenTV";
+			};
+			name = Release;
+		};
+		14F5E90B260F4CCC0028AA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF87D45D23A4FE157ADDC19C /* Pods-RakutenTVUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK599T7KWJ;
+				INFOPLIST_FILE = RakutenTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rakutentv.ios-Technical-Test.jordigallenrenau.RakutenTVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RakutenTV;
+			};
+			name = Debug;
+		};
+		14F5E90C260F4CCC0028AA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11118AFFE27C44B2BB967D9F /* Pods-RakutenTVUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK599T7KWJ;
+				INFOPLIST_FILE = RakutenTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rakutentv.ios-Technical-Test.jordigallenrenau.RakutenTVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RakutenTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14F5E8D5260F4CCA0028AA90 /* Build configuration list for PBXProject "RakutenTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F5E902260F4CCC0028AA90 /* Debug */,
+				14F5E903260F4CCC0028AA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F5E904260F4CCC0028AA90 /* Build configuration list for PBXNativeTarget "RakutenTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F5E905260F4CCC0028AA90 /* Debug */,
+				14F5E906260F4CCC0028AA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F5E907260F4CCC0028AA90 /* Build configuration list for PBXNativeTarget "RakutenTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F5E908260F4CCC0028AA90 /* Debug */,
+				14F5E909260F4CCC0028AA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F5E90A260F4CCC0028AA90 /* Build configuration list for PBXNativeTarget "RakutenTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F5E90B260F4CCC0028AA90 /* Debug */,
+				14F5E90C260F4CCC0028AA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14F5E8D2260F4CCA0028AA90 /* Project object */;
+}
