@@ -22,20 +22,20 @@ lane :unit_test do |options|
   	)
 end
 
-#desc "Runs app's UI tests in the specified device."
-#desc "Usage example: fastlane ui_test device:'iPhone 12' ios_version:'14.2'"
-#lane :ui_test do |options|
-#	raise "Missing 'device' parameter. Usage: fastlane ui_test device:DEVICE ios_version:IOS_VERSION" unless options[:device]
-#	raise "Missing 'ios_version' parameter. Usage: fastlane ui_test device:DEVICE ios_version:IOS_VERSION" unless options[:ios_version]
-#	ios_version = options[:ios_version]
-#	scan(
-#	    scheme: "RakutenTVUITests",
-#	    device: options[:device],
-#	    sdk: "iphonesimulator" + "#{ios_version}",
-#	    clean: true,
-#	    disable_concurrent_testing: true
-#  	)
-#end
+desc "Runs app's UI tests in the specified device."
+desc "Usage example: fastlane ui_test device:'iPhone 12' ios_version:'14.2'"
+lane :ui_test do |options|
+	raise "Missing 'device' parameter. Usage: fastlane ui_test device:DEVICE ios_version:IOS_VERSION" unless options[:device]
+	raise "Missing 'ios_version' parameter. Usage: fastlane ui_test device:DEVICE ios_version:IOS_VERSION" unless options[:ios_version]
+	ios_version = options[:ios_version]
+	scan(
+	    scheme: "RakutenTVUITests",
+	    device: options[:device],
+	    sdk: "iphonesimulator" + "#{ios_version}",
+	    clean: true,
+	    disable_concurrent_testing: true
+  	)
+end
 
 desc "Runs app's full test suite in the specified device."
 desc "Usage example: fastlane full_test device:'iPhone 12' ios_version:'14.2'"
