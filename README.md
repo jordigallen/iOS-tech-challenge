@@ -33,8 +33,6 @@ $ open RakutenTV.xcworkspace
 ```
 3. run  RakutenTVTest or RakutenTVUITest
 
-4. run  RakutenTV
-
 
 ## LICENSE
 
