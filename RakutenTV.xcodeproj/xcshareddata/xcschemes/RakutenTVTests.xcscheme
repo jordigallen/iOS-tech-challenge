@@ -28,17 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "14F5E8EF260F4CCB0028AA90"
+            BuildableName = "RakutenTVTests.xctest"
+            BlueprintName = "RakutenTVTests"
+            ReferencedContainer = "container:RakutenTV.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "14F5E8EF260F4CCB0028AA90"
-               BuildableName = "RakutenTVTests.xctest"
-               BlueprintName = "RakutenTVTests"
-               ReferencedContainer = "container:RakutenTV.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

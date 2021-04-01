@@ -8,24 +8,26 @@ use_frameworks!
 # Comment the next line if you want the compiler to throw warnings regarding the Pods implementation
 inhibit_all_warnings!
 
-$alamofire_version = '4.9.1'
-# $nimble_version = '8.0.4'
-$promise_kit_version = '6.12.0'
-$sdwebimage_version = '5.3.1'
-$swiftgen_version = '6.1.0'
-# $snapshotTesting_version = '1.8.2'
-$swinject_version = '2.6.0'
+$alamofire_version = '5.4.1'
+$promise_kit_version = '6.13.1'
+$swiftgen_version = '6.4.0'
+$swinject_version = '2.7.1'
 $swinjectStoryboard_version = '2.2.0'
+$swiftLint_version = '0.43.1'
+$rxSwift_version = '5.0.1'
+$rxCocoa_version = '5.0.1'
+# $nimble_version = '8.0.4'
+# $snapshotTesting_version = '1.8.2'
 # $swifter_version = '1.5.0'
 
 def app_pods
   pod 'Alamofire', $alamofire_version
-  pod 'SDWebImage', $sdwebimage_version
+  pod 'SwiftLint', $swiftLint_version
   pod 'SwiftGen', $swiftgen_version
   pod 'Swinject', $swinject_version
-  pod 'PromiseKit', $promise_kit_version
-  pod 'Swinject', $swinject_version
   pod 'SwinjectStoryboard', $swinjectStoryboard_version
+  pod 'RxSwift', $rxSwift_version
+  pod 'RxCocoa', $rxCocoa_version
 end
 
 # Pods RakutenTV
